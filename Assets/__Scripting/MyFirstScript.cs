@@ -16,7 +16,7 @@ public class MyFirstScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log("Frame #{0}: Update at Time: {1}", frameNum, Time.time);
+        Debug.LogFormat("Frame #{0}: Update at Time: {1}", frameNum, Time.time);
         Debug.Log("Frame " + frameNum + " Update at Time: " + Time.time);
         frameNum = frameNum + 1;
     }
